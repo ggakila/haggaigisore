@@ -1,16 +1,13 @@
+'use client'
 import React from 'react';
+import Image from 'next/image';
 
 export default function About() {
     
    
-    const Image = (Images) => {
-      return (
-        <img src='https://images.pexels.com/photos/15495017/pexels-photo-15495017/free-photo-of-model-in-jacket-with-glamour-makeup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt=""/>
-      )
-    }
-    
+ 
   return (
-		<div className="aboutsection h-screen flex flex-col justify-center items-center px-[60px] bg-neutral-900 text-white gap-10">
+		<div className="aboutsection h-screen flex flex-col py-[50px] items-center px-[60px] bg-neutral-900 text-white gap-10">
 			<div className="w-full flex justify-between text-neutral-300 uppercase my-[10px] px-[70px] text-3xl font-bold">
 				<h1 className="">About me.</h1>
 				<h1>haggai gisore</h1>
@@ -70,6 +67,12 @@ export default function About() {
 							<div className="px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								Bootstrap
 							</div>
+							<div className="px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+								Firebase
+							</div>
+              <div className="px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+								NextAuth
+							</div>
 						</div>
 					</div>
 
@@ -77,8 +80,14 @@ export default function About() {
 						<i>"Creating business through user experience."</i>
 					</h1>
 				</div>
-				<div className="right px-[70px]">
-					<Image />
+				<div className="right w-1/3 relative">
+					<Image 
+          src='/profile.jpg'
+          width={300}
+          height={300}
+          alt="profilepic"
+          style={{objectFit: 'contain'}}
+          />
 				</div>
 			</div>
 		</div>
