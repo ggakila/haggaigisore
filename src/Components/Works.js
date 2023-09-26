@@ -21,7 +21,7 @@ export default function Works() {
 	return (
 		<div className="bg-white h-screen w-screen flex flex-col px-[50px] gap-[20px]">
 			<h1 className="text-[40px] md:text-[100px]">projects.</h1>
-			<div className="flex flex-col justify-between w-full">
+			<div className="flex flex-col md:flex-row justify-between w-full">
 				<div className="w-full md:w-1/2 flex flex-col gap-[50px]">
 					<div
 						className="text-[20px] md:text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
