@@ -5,11 +5,11 @@ import Contact from "@/Components/Contact";
 
 export default function Home() {
   return (
-    <main className="" >
+    <div className="flex flex-col items-center" >
       <Header/>
       <About/>
       <Works/>
       <Contact/>
-    </main>
+    </div>
   )
 }

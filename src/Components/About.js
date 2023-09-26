@@ -8,13 +8,13 @@ export default function About() {
  
   return (
 		<div className="aboutsection h-screen flex flex-col py-[50px] items-center px-[60px] bg-neutral-900 text-white gap-10">
-			<div className="w-full flex justify-between text-neutral-300 uppercase my-[10px] px-[70px] text-3xl font-bold">
+			<div className="w-full flex justify-between text-neutral-300 uppercase my-[10px] px-[10px] md:px-[70px] text-lg sm:text-3xl font-bold">
 				<h1 className="">About me.</h1>
 				<h1>haggai gisore</h1>
 			</div>
-			<div className="flex text-3xl">
-				<div className="left w-2/3 px-[70px]">
-					<h1 className="text-neutral-500 leading-[45px]">
+			<div className="flex flex-col md:flex-row text-lg md:text-3xl w-screen">
+				<div className="left w-2/3  px-5 md:px-[70px]">
+					<h1 className="text-neutral-500 md:leading-[45px]">
 						Hello, I'm{" "}
 						<span className="text-neutral-200 font-bold">Haggai Gisore</span>, a
 						budding software developer based in the vibrant city of Nairobi,
@@ -23,11 +23,11 @@ export default function About() {
 						NextJS, NodeJS and motion design to create interactive, user-centric
 						solutions.
 					</h1>
-					<div className="my-10">
-						<h1 className="uppercase my-10 font-bold text-neutral-300">
+					<div className="my-5 sm:my-10">
+						<h1 className="uppercase my-5 sm:my-10 font-bold text-neutral-300">
 							techstack.
 						</h1>
-						<div className="flex flex-wrap gap-[20px] text-gray-100">
+						<div className=" w-screen md:w-2/3 flex flex-row flex-wrap gap-[20px] text-gray-100">
 							<div className="px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								NextJS
 							</div>
@@ -80,7 +80,7 @@ export default function About() {
 						<i>"generating business through user experience."</i>
 					</h1>
 				</div>
-				<div className="right w-1/3 relative">
+				<div className="hidden md:block right w-1/3 relative">
 					<Image 
           src='/profile.jpg'
           width={300}
