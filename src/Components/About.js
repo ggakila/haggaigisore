@@ -77,7 +77,7 @@ export default function About() {
 					</div>
 
 					<h1 className="text-neutral-300">
-						<i>"Creating business through user experience."</i>
+						<i>"generating business through user experience."</i>
 					</h1>
 				</div>
 				<div className="right w-1/3 relative">
