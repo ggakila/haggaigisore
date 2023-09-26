@@ -19,60 +19,60 @@ export default function Works() {
 	};
 
 	return (
-		<div className="bg-white h-screen w-full flex flex-col px-[50px] gap-[20px]">
-			<h1 className="text-[100px]">projects.</h1>
-			<div className="flex justify-between w-full">
-				<div className="w-1/2 flex flex-col gap-[50px]">
+		<div className="bg-white h-screen w-screen flex flex-col px-[50px] gap-[20px]">
+			<h1 className="text-[40px] md:text-[100px]">projects.</h1>
+			<div className="flex flex-col justify-between w-full">
+				<div className="w-full md:w-1/2 flex flex-col gap-[50px]">
 					<div
-						className="text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
+						className="text-[20px] md:text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
 						onMouseEnter={() => handleProjectHover("Moments")}
 					>
 						<h1>1. Moments </h1>
 						<a
 							href="https://github.com/ggakila/moments-by-gisore"
-							className="text-2xl text-neutral-400"
+							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code
 						</a>
 					</div>
 					<div
-						className="text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
+						className="text-[20px] md:text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
 						onMouseEnter={() => handleProjectHover("MovieBox")}
 					>
 						<h1>2. MovieBox </h1>
 						<a
 							href="https://github.com/ggakila/zuri-stage2"
-							className="text-2xl text-neutral-400"
+							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code
 						</a>
 					</div>
 					<div
-						className="text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
+						className="text-[20px] md:text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
 						onMouseEnter={() => handleProjectHover("Duqqa")}
 					>
 						<h1>3. Duqqa </h1>
 						<a
 							href="https://github.com/ggakila/next-js-apps/tree/main/duqqa"
-							className="text-2xl text-neutral-400"
+							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code
 						</a>
 					</div>
 					<div
-						className="text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
+						className="text-[20px] md:text-[50px] border-b-2 border-neutral-800 flex justify-between items-center text-neutral-600 hover:text-black"
 						onMouseEnter={() => handleProjectHover("BazuChat")}
 					>
 						<h1>4. Bazu Chat </h1>
 						<a
 							href="https://github.com/ggakila/React/tree/main/bazu-chat"
-							className="text-2xl text-neutral-400"
+							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code
 						</a>
 					</div>
 				</div>
-				<div className="w-1/2 h-full flex justify-center items-center">
+				<div className="w-full md:w-1/2 h-full flex justify-center items-center">
 					<div className="right relative w-[500px] h-[500px] ">
 						<Image
 							src={`/${projectImage}`}
