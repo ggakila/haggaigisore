@@ -33,8 +33,8 @@ export default function Header() {
 						/>
 					</h1>
 				</div>
-				<div className="flex text-[200px] font-bold">
-					<h1>HAGGAI</h1>
+				<div className="flex text-[200px] font-bold ">
+					<h1>HAGGAI</h1><span className="text-black">.</span>
 					<h1 className="gisore font-medium">GISORE</h1>
 				</div>
 				<h3 className="text-3xl font-bold">Software Developer - (Frontend)</h3>
