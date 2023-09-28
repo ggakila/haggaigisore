@@ -7,7 +7,7 @@ export default function About() {
    
  
   return (
-		<div className="aboutsection h-screen flex flex-col py-[50px] items-center px-[0px] sm:px-[60px] bg-neutral-900 text-white gap-10">
+		<div id='about' className="aboutsection h-screen flex flex-col py-[50px] items-center px-[0px] sm:px-[60px] bg-neutral-900 text-white gap-10">
 			<div className="w-screen flex justify-between text-neutral-300 uppercase my-[10px] px-[10px] md:px-[70px] text-lg sm:text-3xl font-bold">
 				<h1 className="">About me.</h1>
 				<h1>haggai gisore</h1>

@@ -19,7 +19,7 @@ export default function Works() {
 	};
 
 	return (
-		<div className="bg-white h-screen w-screen flex flex-col px-[50px] gap-[20px]">
+		<div id="work" className="bg-white h-screen w-screen flex flex-col px-[50px] gap-[20px]">
 			<h1 className="text-[40px] md:text-[100px]">projects.</h1>
 			<div className="flex flex-col md:flex-row justify-between w-full">
 				<div className="w-full md:w-1/2 flex flex-col gap-[50px]">
@@ -30,6 +30,7 @@ export default function Works() {
 						<h1>1. Moments </h1>
 						<a
 							href="https://github.com/ggakila/moments-by-gisore"
+							target="_blank"
 							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code
@@ -42,6 +43,7 @@ export default function Works() {
 						<h1>2. MovieBox </h1>
 						<a
 							href="https://github.com/ggakila/zuri-stage2"
+							target="_blank"
 							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code
@@ -54,6 +56,7 @@ export default function Works() {
 						<h1>3. Duqqa </h1>
 						<a
 							href="https://github.com/ggakila/next-js-apps/tree/main/duqqa"
+							target="_blank"
 							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code
@@ -66,6 +69,7 @@ export default function Works() {
 						<h1>4. Bazu Chat </h1>
 						<a
 							href="https://github.com/ggakila/React/tree/main/bazu-chat"
+							target="_blank"
 							className="text-lg md:text-2xl text-neutral-400"
 						>
 							source code

@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -13,9 +14,9 @@ export default function Header() {
 					<h1 className="studios sm:font-bold uppercase text-sm">studios</h1>
 				</div>
 				<div className="navs flex flex-col md:flex-row  font-semibold sm:gap-10">
-					<div className="about text-[10px] md:text-xl">about.</div>
-					<div className="projects text-[10px] md:text-xl">works.</div>
-					<div className="contact text-[10px] md:text-xl">contact.</div>
+					<Link href="#about" scroll={false} className="about text-[10px] md:text-xl">about.</Link>
+					<Link href="#work" scroll={false} className="projects text-[10px] md:text-xl">works.</Link>
+					<Link href="#contact" scroll={false} className="contact text-[10px] md:text-xl">contact.</Link>
 				</div>
 			</header>
 			<div className="h-full w-full flex flex-col justify-center items-center ">
