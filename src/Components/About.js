@@ -7,13 +7,13 @@ export default function About() {
    
  
   return (
-		<div id='about' className="aboutsection h-screen flex flex-col py-[50px] items-center px-[0px] sm:px-[60px] bg-neutral-900 text-white gap-10">
-			<div className="w-screen flex justify-between text-neutral-300 uppercase my-[10px] px-[10px] md:px-[70px] text-lg sm:text-3xl font-bold">
+		<div id='about' className="aboutsection min-h-full flex flex-col py-[50px] items-center px-[0px] sm:px-[60px] bg-neutral-900 text-white gap-10">
+			<div className="w-full flex justify-between text-neutral-300 uppercase my-[10px] px-[10px] md:px-[70px] text-lg sm:text-3xl font-bold">
 				<h1 className="">About me.</h1>
 				<h1>haggai gisore</h1>
 			</div>
-			<div className="flex flex-col md:flex-row text-lg md:text-3xl w-screen">
-				<div className="left w-full md:w-2/3  px-5 md:px-[70px]">
+			<div className="flex flex-col md:flex-row text-md md:text-xl w-full">
+				<div className="left w-full lg:w-2/3  px-5 lg:px-[50px]">
 					<h1 className="text-neutral-500 md:leading-[45px]">
 						Hello, I'm{" "}
 						<span className="text-neutral-200 font-bold">Haggai Gisore</span>, a
@@ -23,54 +23,54 @@ export default function About() {
 						NextJS, NodeJS and motion design to create interactive, user-centric
 						solutions.
 					</h1>
-					<div className="my-5 md:my-10">
+					<div className="my-5 md:my-10 w-full">
 						<h1 className="uppercase my-5 sm:my-10 font-bold text-neutral-300">
 							techstack.
 						</h1>
-						<div className="text-sm md:text-xl w-screen lg:w-2/3 flex flex-row flex-wrap gap-[10px] md:gap-[20px] text-gray-100">
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+						<div className="text-sm md:text-md w-full lg:w-2/3 flex flex-wrap gap-[10px] md:gap-[20px] text-gray-100">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								NextJS
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								ReactJS
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								NodeJS
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								ExpressJS
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								JavaScript
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								TypeScript
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								Babel
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								WebPack
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								REDUX
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								MongoDB
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								Jest
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								Tailwind
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								Bootstrap
 							</div>
-							<div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+							<div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								Firebase
 							</div>
-              <div className="px-[8px] md:px-[15px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
+              <div className="px-[5px] md:px-[10px] py-[10px] w-[140px] text-center border rounded-full hover:bg-white hover:text-black">
 								NextAuth
 							</div>
 						</div>
@@ -80,13 +80,13 @@ export default function About() {
 						<i>"generating business through user experience."</i>
 					</h1>
 				</div>
-				<div className="hidden lg:block right w-0 lg:w-1/3 relative">
+				<div className="hidden lg:inline right w-0 lg:w-1/3 relative">
 					<Image 
           src='/profile.jpg'
           width={300}
           height={300}
           alt="profilepic"
-          style={{objectFit: 'contain'}}
+          style={{objectFit: 'cover'}}
           />
 				</div>
 			</div>
